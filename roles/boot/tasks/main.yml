@@ -36,7 +36,7 @@
 
 - name: fetch latest jwrdegoede kernel sources (this may take a while)
   git:
-    repo: https://github.com/jwrdegoede/linux-sunxi.git
+    repo: https://github.com/nahci13/linux-sunxi.git
     dest: /usr/src/linux-jwrdegoede
     force: yes
     depth: 1

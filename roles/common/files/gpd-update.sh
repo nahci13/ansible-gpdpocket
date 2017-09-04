@@ -23,7 +23,7 @@ if [ -d /usr/src/ansible-gpdpocket/.git ]; then
   git reset --hard origin/master
 else
   rm -rf /usr/src/ansible-gpdpocket
-  git clone https://github.com/cawilliamson/ansible-gpdpocket.git /usr/src/ansible-gpdpocket
+  git clone https://github.com/nahci13/ansible-gpdpocket.git /usr/src/ansible-gpdpocket
   cd /usr/src/ansible-gpdpocket
   git reset --hard origin/master
 fi
